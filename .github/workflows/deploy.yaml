@@ -4,7 +4,7 @@ on:
     tags:
       - v*
 
-     
+
 jobs:
   deployHeroku:
     runs-on: ubuntu-latest
@@ -16,3 +16,7 @@ jobs:
     
     - name: Install ruby
       run: gem install dpl
+    
+    - name: Deploy on heroku
+      run: dpl --provider=heroku --app=${{ secrets.HerokuNameAPI}} --api-key=${{secrets.HerokuKeyAPI}}
+
