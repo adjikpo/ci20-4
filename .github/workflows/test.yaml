@@ -2,9 +2,11 @@ name: CI test
 on: push
 
 jobs:
-  test:
+  testUnit:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
+      - name: Install composer
+        run: composer install
       - name: Run test unit
         run: bin/phpunit tests/Unit

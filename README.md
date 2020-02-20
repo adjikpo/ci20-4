@@ -1,4 +1,5 @@
 # Tests: practical work
+![](https://github.com/actions/ci20-4/workflows/Greet%20Everyone/badge.svg)
 
 A simple Symfony project connected to the [Star Wars API](https://swapi.co) to illustrate how to use tests.
 
