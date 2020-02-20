@@ -1,5 +1,5 @@
 # Tests: practical work
-![CI test](https://github.com/adjikpo/ci20-4/workflows/CI%20test/badge.svg) ![CI deploy](https://github.com/adjikpo/ci20-4/workflows/CI%20deploy/badge.svg) [![GitHub tag](https://img.shields.io/github/tag/Naereen/StrapDown.js.svg)](https://GitHub.com/Naereen/StrapDown.js/tags/)
+![CI test](https://github.com/adjikpo/ci20-4/workflows/CI%20test/badge.svg) ![CI deploy](https://github.com/adjikpo/ci20-4/workflows/CI%20deploy/badge.svg) [![GitHub tag](https://img.shields.io/github/tag/Naereen/StrapDown.js.svg)](https://github.com/adjikpo/ci20-4/tags)
 
 A simple Symfony project connected to the [Star Wars API](https://swapi.co) to illustrate how to use tests.
 
